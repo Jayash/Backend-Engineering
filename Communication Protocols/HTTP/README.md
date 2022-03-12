@@ -40,8 +40,7 @@ HTTP Pipeline
 
 ![image](https://user-images.githubusercontent.com/7610065/158013379-ef4bf1ea-c23a-4039-a603-4230e5bcc2b8.png)
 
-Note: Browsers ultimately did not enable pipelining by default, and by 2017 most browsers supported HTTP/2 by default which used multiplexing instead.
-
+Note: Browsers ultimately did not enable pipelining by default, and by 2017 most browsers supported HTTP/2 by default which used multiplexing instead because of Head-of-line blocking(HOL) problem i.e. Even if the server does properly support pipelining, performance issues can arise because all subsequent requests have to wait for the first one to be complete
 
 HTTP 2.0 (2015-Now)
 
