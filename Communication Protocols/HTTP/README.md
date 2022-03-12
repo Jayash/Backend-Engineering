@@ -50,6 +50,13 @@ HTTP 2.0 (2015-Now)
 
 ![image](https://user-images.githubusercontent.com/7610065/158012237-288a081c-5b01-489e-ae94-d303339b34e3.png)
 
+Multiplex: Permits multiple requests and responses to be sent at the same time.
+Compression: Compresses headers that have been requested previously to make things more efficient.
+Server push: The server can send additional information needed for a request before it is requested
+Increased security: HTTP/2 is supported through encrypted connections
+
+![image](https://user-images.githubusercontent.com/7610065/158016943-e990f28a-7184-4afd-bd4d-3efd91cd77eb.png)
+
 HTTP 3.0
 
 Still experimental
