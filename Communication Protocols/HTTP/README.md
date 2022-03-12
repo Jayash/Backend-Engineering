@@ -32,7 +32,9 @@ Keep alive header also send with the request and connection is only closed if se
 ![image](https://user-images.githubusercontent.com/7610065/158012097-18d6953c-196b-4277-8833-3afb7a89f4c3.png)
 ![image](https://user-images.githubusercontent.com/7610065/158012082-e5c46d90-db2c-49d1-ba38-200c172857a1.png)
 
-Chunked transfer encoding: The data stream is divided into a series of non-overlapping "chunks". The chunks are sent out and received independently of one another. No knowledge of the data stream outside the currently-being-processed chunk is necessary for both the sender and the receiver at any given time. Each chunk is preceded by its size in bytes. The transmission ends when a zero-length chunk is received. The chunked keyword in the Transfer-Encoding header is used to indicate chunked transfer. Chunked transfer encoding is not supported in HTTP/2, which provides its own mechanisms for data streaming.
+Chunked transfer encoding: The data stream is divided into a series of non-overlapping "chunks". The chunks are sent out and received independently of one another. No knowledge of the data stream outside the currently-being-processed chunk is necessary for both the sender and the receiver at any given time. Each chunk is preceded by its size in bytes. The transmission ends when a zero-length chunk is received. The chunked keyword in the Transfer-Encoding header is used to indicate chunked transfer. Chunked transfer encoding is not supported in HTTP/2, which provides its own mechanisms for data streaming. 
+
+This is usually required when an HTTP client is reading a response message from a server it needs to know when it has reached the end of the message. This is particularly important with persistent (keep alive) connections, because a connection can only be re-used by another HTTP transaction after the response message has been fully received.
 
 HTTP Pipeline 
 
