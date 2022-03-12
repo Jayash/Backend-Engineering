@@ -1,5 +1,7 @@
 # HTTP
 
+HTTP protocal is stateless but under the hood it uses TCP that is statefull 
+
 OSI Layer 7 Protocol
 
 ![image](https://user-images.githubusercontent.com/7610065/158011569-a94f31ca-f3b6-4158-abf0-e7a43ec83fe1.png)
@@ -17,9 +19,19 @@ open-close connection for each request
 
 HTTP 1.1 (1997-2015)
 
-connection is only closed if server serves all the client requests
+connection is only closed if server serves all the client requests, this also brings concepts of e-tags and caching
 Keep alive header also send with the request
 
 ![image](https://user-images.githubusercontent.com/7610065/158012097-18d6953c-196b-4277-8833-3afb7a89f4c3.png)
 ![image](https://user-images.githubusercontent.com/7610065/158012082-e5c46d90-db2c-49d1-ba38-200c172857a1.png)
+
+HTTP 2.0 (2015-Now)
+
+![image](https://user-images.githubusercontent.com/7610065/158012237-288a081c-5b01-489e-ae94-d303339b34e3.png)
+
+HTTP 3.0
+
+Still experimental
+
+![image](https://user-images.githubusercontent.com/7610065/158012424-b0ccf7d6-de1a-449f-b732-2d8b4b328582.png)
 
