@@ -10,6 +10,12 @@ OSI Layer 7 Protocol
 
 To open a connection we have to do 3-way handshake
 
+open connection
+![image](https://user-images.githubusercontent.com/7610065/158012560-34874d26-0b4c-4de2-a935-6a831a15e177.png)
+
+close connection
+![image](https://user-images.githubusercontent.com/7610065/158012572-5eb72224-7272-4fcc-848b-0fe23571b68b.png)
+
 HTTP 1.0 (1996-1997)
 
 open-close connection for each request
