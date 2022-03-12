@@ -12,4 +12,6 @@
 ## Messaging System
 ## Web Frameworks Runtime
 ## Message Formats
+- XML
+- JSON
 ## Security
