@@ -40,7 +40,11 @@ HTTP Pipeline
 
 ![image](https://user-images.githubusercontent.com/7610065/158013379-ef4bf1ea-c23a-4039-a603-4230e5bcc2b8.png)
 
-Note: Browsers ultimately did not enable pipelining by default, and by 2017 most browsers supported HTTP/2 by default which used multiplexing instead because of Head-of-line blocking(HOL) problem i.e. Even if the server does properly support pipelining, performance issues can arise because all subsequent requests have to wait for the first one to be complete
+Note: Browsers ultimately did not enable pipelining by default, and by 2017 most browsers supported HTTP/2 by default which used multiplexing instead because of Head-of-line blocking(HOL) problem i.e. Even if the server does properly support pipelining, performance issues can arise because all subsequent requests have to wait for the first one to be complete.
+
+Because of HOL HTTP 1.1 is slow so browser has a around and it opens 6 HTTP connection and request on 6 parallelly (reuse the existing connection for all the request of 7 requests comes last request has to wait for at least one to complete) but it will cause same thing if we have to call server more than 6 times parallelly.
+
+![image](https://user-images.githubusercontent.com/7610065/158016816-a9f5b5c0-8952-435d-865e-63b00bb66cf7.png)
 
 HTTP 2.0 (2015-Now)
 
