@@ -4,6 +4,7 @@
  - TCP
  - UDP
  - Web Sockets
+ - HTTP
  
 ## Web Servers
 ## Database Engineering
