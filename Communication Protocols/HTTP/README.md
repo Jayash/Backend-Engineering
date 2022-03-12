@@ -27,8 +27,7 @@ open-close connection for each request
 
 HTTP 1.1 (1997-2015)
 
-connection is only closed if server serves all the client requests, this also brings concepts of e-tags and caching
-Keep alive header also send with the request
+Keep alive header also send with the request and connection is only closed if server serves all the client requests, this also brings concepts of e-tags and caching
 
 ![image](https://user-images.githubusercontent.com/7610065/158012097-18d6953c-196b-4277-8833-3afb7a89f4c3.png)
 ![image](https://user-images.githubusercontent.com/7610065/158012082-e5c46d90-db2c-49d1-ba38-200c172857a1.png)
