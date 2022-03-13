@@ -1,6 +1,6 @@
 # HTTP
 
-HTTP protocal is stateless but under the hood it uses TCP which is statefull 
+HTTP protocal is stateless, most of the time it uses TCP which is statefull and can also use UDP
 
 OSI Layer 7 Protocol
 
