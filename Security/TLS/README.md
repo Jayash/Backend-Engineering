@@ -1,3 +1,6 @@
 # TLS
 
+Transport Layer Security, or TLS for short, is an encryption protocol that keeps communications private and secure on the Internet. TLS is used mostly to encrypt the communication between applications and web servers, like when web browsers load a website. All websites that use TLS must have a TLS certificate. TLS is sometimes called SSL, although SSL is an outdated name for the protocol.
+
+All TLS connections start with something called a "handshake." Just as a handshake is used in real life when two people meet and exchange introductions, the TLS handshake is a series of introductory communications between a client device (like a user's smartphone) and a web application or website. During a TLS handshake, the two communicating devices agree on what encryption keys to use, among other steps. Despite the number of steps involved, a TLS handshake takes only a few milliseconds.
 
