@@ -41,5 +41,5 @@ When Alice types https://www.bobisawesome.example.com into her laptop's browser,
 - Bob's web server shows Bob's TLS certificate.
 - The TLS handshake proceeds, and Alice's laptop loads www.bobisawesome.example.com. Any attackers who may be monitoring the network cannot see which website Alice is visiting.*
 
-*This last statement is only true if the DNS part of the process used DNSSEC and either DNS over HTTPS or DNS over TLS — more below.
+*This last statement is only true if the DNS part of the process used DNSSEC and either DNS over HTTPS or DNS over TLS otherwise attacker can sniff DNS entries. to prevent sniff both ESNI and DNSSEC has to be in place
 
