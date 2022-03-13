@@ -8,22 +8,22 @@ OSI Layer 7 Protocol
 
 ![image](https://user-images.githubusercontent.com/7610065/158011597-29a46d25-1de9-497d-a3c3-aadce6d9a6fa.png)
 
-open connection
+## open connection
 - To open a connection we have to do 3-way handshake
 ![image](https://user-images.githubusercontent.com/7610065/158012560-34874d26-0b4c-4de2-a935-6a831a15e177.png)
 
-close connection
+## close connection
 - The connection termination phase uses a four-way handshake, with each side of the connection terminating independently. When an endpoint wishes to stop its half of the connection, it transmits a FIN packet, which the other end acknowledges with an ACK.
 ![image](https://user-images.githubusercontent.com/7610065/158012572-5eb72224-7272-4fcc-848b-0fe23571b68b.png)
 
-HTTP 1.0 (1996-1997)
+## HTTP 1.0 (1996-1997)
 
 open-close connection for each request
 
 ![image](https://user-images.githubusercontent.com/7610065/158011981-8a605e80-7da8-41c1-acad-3d9485335245.png)
 ![image](https://user-images.githubusercontent.com/7610065/158011956-fb851532-df1b-496a-86d9-a32db4491c15.png)
 
-HTTP 1.1 (1997-2015)
+## HTTP 1.1 (1997-2015)
 
 Keep alive header also send with the request and connection is only closed if server serves all the client requests, this also brings concepts of e-tags and caching
 
@@ -44,7 +44,7 @@ Because of HOL HTTP 1.1 is slow so browser has a around and it opens 6 HTTP conn
 
 ![image](https://user-images.githubusercontent.com/7610065/158016816-a9f5b5c0-8952-435d-865e-63b00bb66cf7.png)
 
-HTTP 2.0 (2015-Now)
+## HTTP 2.0 (2015-Now)
 
 ![image](https://user-images.githubusercontent.com/7610065/158012237-288a081c-5b01-489e-ae94-d303339b34e3.png)
 
@@ -55,7 +55,7 @@ HTTP 2.0 (2015-Now)
 
 ![image](https://user-images.githubusercontent.com/7610065/158016943-e990f28a-7184-4afd-bd4d-3efd91cd77eb.png)
 
-HTTP 3.0
+## HTTP 3.0
 
 Still experimental
 
