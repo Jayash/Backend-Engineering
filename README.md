@@ -18,5 +18,6 @@ when client connect to server it first does 3 way TCP handshake followed by a TL
 - XML
 - JSON
 ## Security
-- TLS
+- [TLS](https://github.com/Jayash/Backend-Engineering/tree/main/Security/TLS)
+- [Symmetric and Asymmetric Keys](https://github.com/Jayash/Backend-Engineering/tree/main/Security/Symmetric%20vs.%20Asymmetric%20Encryption)
 - [Secure DNS](https://github.com/Jayash/Backend-Engineering/tree/main/Security/Secure%20DNS)
