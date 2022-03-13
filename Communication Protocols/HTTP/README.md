@@ -8,14 +8,12 @@ OSI Layer 7 Protocol
 
 ![image](https://user-images.githubusercontent.com/7610065/158011597-29a46d25-1de9-497d-a3c3-aadce6d9a6fa.png)
 
-To open a connection we have to do 3-way handshake
-
 open connection
-
+- To open a connection we have to do 3-way handshake
 ![image](https://user-images.githubusercontent.com/7610065/158012560-34874d26-0b4c-4de2-a935-6a831a15e177.png)
 
 close connection
-
+- The connection termination phase uses a four-way handshake, with each side of the connection terminating independently. When an endpoint wishes to stop its half of the connection, it transmits a FIN packet, which the other end acknowledges with an ACK.
 ![image](https://user-images.githubusercontent.com/7610065/158012572-5eb72224-7272-4fcc-848b-0fe23571b68b.png)
 
 HTTP 1.0 (1996-1997)
