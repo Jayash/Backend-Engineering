@@ -19,4 +19,4 @@ when client connect to server it first does 3 way TCP handshake followed by a TL
 - JSON
 ## Security
 - TLS
-- Secure DNS
+- [Secure DNS](https://github.com/Jayash/Backend-Engineering/tree/main/Security/Secure%20DNS)
