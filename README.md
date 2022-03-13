@@ -1,5 +1,7 @@
 # Backend-Engineering
 
+when client connect to server it first does 3 way TCP handshake followed by a TLS handshake and exhange key (diffie hellman) than that encrypts client communication 
+
 ## Communication Protocols
  - TCP
  - UDP
@@ -17,3 +19,4 @@
 - JSON
 ## Security
 - TLS
+- Secure DNS
