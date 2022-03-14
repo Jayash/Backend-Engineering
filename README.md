@@ -4,8 +4,8 @@ when client connect to server it first does 3 way TCP handshake followed by a TL
 ![image](https://user-images.githubusercontent.com/7610065/158075395-4c413f96-3a34-43fb-bb38-8d2d7c29722d.png)
 
 ## Communication Protocols
- - TCP
- - UDP
+ - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
+ - [UDP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/UDP)
  - Web Sockets
  - [HTTP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/HTTP)
  
