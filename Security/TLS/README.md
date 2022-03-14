@@ -4,3 +4,9 @@ Transport Layer Security, or TLS for short, is an encryption protocol that keeps
 
 All TLS connections start with something called a "handshake." Just as a handshake is used in real life when two people meet and exchange introductions, the TLS handshake is a series of introductory communications between a client device (like a user's smartphone) and a web application or website. During a TLS handshake, the two communicating devices agree on what encryption keys to use, among other steps. Despite the number of steps involved, a TLS handshake takes only a few milliseconds.
 
+## What happens during a TLS handshake
+
+- Specify which version of TLS (TLS 1.0, 1.2, 1.3, etc.) they will use
+- Decide on which cipher suites (see below) they will use
+- Authenticate the identity of the server via the server’s public key and the SSL certificate authority’s digital signature
+- Generate session keys in order to use symmetric encryption after the handshake is complete
