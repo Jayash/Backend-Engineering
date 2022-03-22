@@ -3,6 +3,10 @@
 when client connect to server it first does 3 way TCP handshake followed by a TLS handshake and exhange key (diffie hellman) than that encrypts client communication 
 ![image](https://user-images.githubusercontent.com/7610065/158075395-4c413f96-3a34-43fb-bb38-8d2d7c29722d.png)
 
+## Multitenancy
+
+Software multitenancy is a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are "shared"
+
 ## Communication Protocols
  - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
  - [UDP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/UDP)
