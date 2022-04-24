@@ -8,7 +8,7 @@ when client connect to server it first does 3 way TCP handshake followed by a TL
 
 Software multitenancy is a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are "shared"
 
-![image](https://user-images.githubusercontent.com/7610065/159543956-c24f7968-5e48-4f89-b99f-b613281335f0.png =250x250)
+<img src="https://user-images.githubusercontent.com/7610065/159543956-c24f7968-5e48-4f89-b99f-b613281335f0.png" width="500" height="250">
 
 ## Communication Protocols
  - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
