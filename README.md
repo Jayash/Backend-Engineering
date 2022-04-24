@@ -14,6 +14,8 @@ Software multitenancy is a software architecture in which a single instance of s
 
 Blocking socket, execution will wait (ie. "block") until the full socket operation has taken place. So, you can process any results/responses in your code immediately after. These are also called synchronous sockets.
 
+A blocking web-server is similar to a phone call. you need to wait on-line to get a response and continue; where as a non-blocking web-server is like a sms service. you sms your request,do your things and react when you receive an sms back!
+
 Non-Blocking socket operation will allow execution to resume immediately and you can handle the server's response with a callback or event. These are called asynchronous sockets.
 
 Non-blocking generally means event driven, multiplexing all activity via an event driven system in a single thread, as opposed to using multiple threads.
