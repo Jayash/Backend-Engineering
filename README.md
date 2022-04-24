@@ -10,6 +10,12 @@ Software multitenancy is a software architecture in which a single instance of s
 
 <img src="https://user-images.githubusercontent.com/7610065/159543956-c24f7968-5e48-4f89-b99f-b613281335f0.png" width="500" height="250">
 
+# Blocking and Non Blocking
+
+Blocking socket, execution will wait (ie. "block") until the full socket operation has taken place. So, you can process any results/responses in your code immediately after. These are also called synchronous sockets.
+
+Non-Blocking socket operation will allow execution to resume immediately and you can handle the server's response with a callback or event. These are called asynchronous sockets.
+
 ## Communication Protocols
  - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
  - [UDP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/UDP)
