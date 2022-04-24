@@ -16,6 +16,8 @@ Blocking socket, execution will wait (ie. "block") until the full socket operati
 
 Non-Blocking socket operation will allow execution to resume immediately and you can handle the server's response with a callback or event. These are called asynchronous sockets.
 
+Non-blocking generally means event driven, multiplexing all activity via an event driven system in a single thread, as opposed to using multiple threads.
+
 ## Communication Protocols
  - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
  - [UDP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/UDP)
