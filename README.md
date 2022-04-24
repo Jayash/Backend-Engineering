@@ -23,7 +23,7 @@ Non-blocking generally means event driven, multiplexing all activity via an even
 ## Communication Protocols
  - [TCP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/TCP)
  - [UDP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/UDP)
- - Web Sockets
+ - [Web Sockets](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/Web%20Sockets)
  - [HTTP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/HTTP)
  - [IP](https://github.com/Jayash/Backend-Engineering/blob/main/Communication%20Protocols/IP)
  - [ICMP](https://github.com/Jayash/Backend-Engineering/tree/main/Communication%20Protocols/ICMP)
