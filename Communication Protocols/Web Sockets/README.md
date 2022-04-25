@@ -11,3 +11,8 @@
 ## Web Socket use Case
 
 <img src="https://user-images.githubusercontent.com/7610065/164990816-3884515b-61ba-40b9-ac33-cf475888c658.png" width="500" height="250">
+
+## Web Socket Pros and Cons
+
+<img src="https://user-images.githubusercontent.com/7610065/165144266-3ebc122b-d29e-4b3f-aa08-9766b12fc2b6.png" width="500" height="250">
+
