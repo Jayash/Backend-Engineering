@@ -16,3 +16,5 @@
 
 <img src="https://user-images.githubusercontent.com/7610065/165144266-3ebc122b-d29e-4b3f-aa08-9766b12fc2b6.png" width="500" height="250">
 
+## Scaling WebSockets
+## Securing WebSockets
