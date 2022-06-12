@@ -4,6 +4,10 @@ when client connect to server it first does 3 way TCP handshake followed by a TL
 
 <img src="https://user-images.githubusercontent.com/7610065/158075395-4c413f96-3a34-43fb-bb38-8d2d7c29722d.png" width="500" height="250">
 
+Is there a Limit to Number of Connections a Backend can handle?
+
+https://www.youtube.com/watch?v=o-EkdZW4zbA
+
 ## Multitenancy
 
 Software multitenancy is a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are "shared"
