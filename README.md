@@ -8,6 +8,8 @@ Is there a Limit to Number of Connections a Backend can handle?
 
 https://www.youtube.com/watch?v=o-EkdZW4zbA
 
+https://serverfault.com/questions/723121/how-does-nginx-websocket-proxy-work
+
 ## Multitenancy
 
 Software multitenancy is a software architecture in which a single instance of software runs on a server and serves multiple tenants. Systems designed in such manner are "shared"
@@ -46,3 +48,12 @@ Non-blocking generally means event driven, multiplexing all activity via an even
 - [Symmetric and Asymmetric Keys](https://github.com/Jayash/Backend-Engineering/tree/main/Security/Symmetric%20vs.%20Asymmetric%20Encryption)
 - [Secure DNS](https://github.com/Jayash/Backend-Engineering/tree/main/Security/Secure%20DNS)
 - [SNI/ESNI](https://github.com/Jayash/Backend-Engineering/blob/main/Security/SNI-ESNI/README.md)
+
+## Proxy vs Reverse Proxy
+
+<img src="https://user-images.githubusercontent.com/7610065/173232079-8d1a02fe-19ee-4652-8f33-0298fd715ffb.png" width="500" height="250">
+
+<img src="https://user-images.githubusercontent.com/7610065/173232194-ffd867e3-81cd-4fa7-b4cb-5d02badc66d1.png" width="500" height="250">
+
+<img src="https://user-images.githubusercontent.com/7610065/173232269-7d83b85f-13c9-4dc8-bbc3-f42f13cb531f.png" width="500" height="250">
+
