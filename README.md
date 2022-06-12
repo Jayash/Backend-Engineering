@@ -57,3 +57,5 @@ Non-blocking generally means event driven, multiplexing all activity via an even
 
 <img src="https://user-images.githubusercontent.com/7610065/173232269-7d83b85f-13c9-4dc8-bbc3-f42f13cb531f.png" width="500" height="250">
 
+<img src="https://user-images.githubusercontent.com/7610065/173232301-a30bbf20-b166-4ce3-8170-0df2df7b71dc.png" width="500" height="250">
+
