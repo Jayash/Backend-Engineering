@@ -18,10 +18,18 @@
 
 ## Scaling WebSockets
 
-with layer 4 it's a tunnel one socket connection and with layer 7 it is 2 websocket connection
+even with config as layer 7 it behaves like layer 4
+
+https://www.youtube.com/watch?v=gzIcGhJC8hA
+
+Is there a Limit to Number of Connections a Backend can handle?
+https://www.youtube.com/watch?v=o-EkdZW4zbA
 
 <img src="https://user-images.githubusercontent.com/7610065/173225510-075ed15f-4615-4da4-99df-bd8d9abf9eac.png" width="500" height="250">
 
 <img src="https://user-images.githubusercontent.com/7610065/173227182-e35ba424-c673-41ba-8b06-e8ba1498150a.png" width="500" height="250">
+
+<img src="https://user-images.githubusercontent.com/7610065/173228135-93cdcb88-15da-444f-bb8c-e91f4d3e4a35.png" width="500" height="250">
+
 
 ## Securing WebSockets
